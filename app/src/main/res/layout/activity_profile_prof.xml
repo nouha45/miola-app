@@ -44,7 +44,7 @@
         android:layout_height="@dimen/_90sdp"
         android:id="@+id/imageProfile"
         android:layout_marginTop="@dimen/_32sdp"
-        android:src="@drawable/per"
+        android:src="@drawable/fati"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/title"
@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/nom_prenom"
         android:layout_marginTop="@dimen/_12sdp"
-        android:text="Zaglami fatima zahra"
+        android:text="El fahsi Nouhaila"
         android:textSize="@dimen/_18ssp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -103,7 +103,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_15sdp"
             android:layout_marginLeft="@dimen/_5sdp"
-            android:hint="Zaglami"
+            android:hint="Elfahsi"
             android:inputType="text"
 
             tools:ignore="TouchTargetSizeCheck" />
@@ -143,7 +143,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_15sdp"
             android:layout_marginLeft="@dimen/_5sdp"
-            android:hint="Fatima zahra"
+            android:hint="Nouhaila"
             android:inputType="text"
 
             tools:ignore="TouchTargetSizeCheck" />
@@ -182,7 +182,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_15sdp"
             android:layout_marginLeft="@dimen/_5sdp"
-            android:hint="zagFati@gmail.com"
+            android:hint="nouhailafa@gmail.com"
             android:inputType="text"
 
             tools:ignore="TouchTargetSizeCheck" />

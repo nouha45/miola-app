@@ -1,16 +1,19 @@
 package com.example.firsttest;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.AppCompatImageView;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatImageView;
+
+import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -23,7 +26,7 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.StorageTask;
 import com.makeramen.roundedimageview.RoundedImageView;
 
-public class ProfileEtud extends AppCompatActivity implements View.OnClickListener {
+public class ProfileAdmin extends AppCompatActivity implements View.OnClickListener {
     private RoundedImageView profileImageView;
     private Button editButton;
     AppCompatImageView backImage;
@@ -41,10 +44,13 @@ public class ProfileEtud extends AppCompatActivity implements View.OnClickListen
     private TextView editNom, editPrenom, editEmail, editPhoneNumber, editDepartement;
     private final String TAG = this.getClass().getName().toUpperCase();
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile_etud);
+        setContentView(R.layout.activity_profile_prof);
+
         backImage = findViewById(R.id.imageBack);
         backImage.setOnClickListener(this);
 
@@ -98,10 +104,13 @@ public class ProfileEtud extends AppCompatActivity implements View.OnClickListen
                 Log.w(TAG, "Failed to read value.", error.toException());
             }
         });
+
+
     }
+
 
     @Override
     public void onClick(View view) {
-        startActivity(new Intent(this, DashboardEtudiant.class));
+        startActivity(new Intent(this, DashboardAdmin.class));
     }
 }

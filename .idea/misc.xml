@@ -3,6 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FirstTest/app/src/main/res/drawable-v24/round_bg.xml" value="0.1445" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FirstTest/app/src/main/res/layout/activity_about.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FirstTest/app/src/main/res/layout/activity_ajouter_prof.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FirstTest/app/src/main/res/layout/activity_dashboard_admin.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FirstTest/app/src/main/res/layout/activity_dashboard_etud.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FirstTest/app/src/main/res/layout/activity_dashboard_prof.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FirstTest/app/src/main/res/layout/activity_download_emploi.xml" value="0.12408759124087591" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FirstTest/app/src/main/res/layout/activity_emploi.xml" value="0.21" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FirstTest/app/src/main/res/layout/activity_list_etud.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FirstTest/app/src/main/res/layout/activity_list_prof_upd.xml" value="0.21" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FirstTest/app/src/main/res/layout/activity_login.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FirstTest/app/src/main/res/layout/activity_mes_etudiants.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FirstTest/app/src/main/res/layout/activity_profile_admin.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FirstTest/app/src/main/res/layout/activity_profile_etud.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FirstTest/app/src/main/res/layout/activity_profile_prof.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FirstTest/app/src/main/res/layout/blabla.xml" value="0.33" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FirstTest/app/src/main/res/layout/home_activity.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FirstTest/app/src/main/res/layout/item.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FirstTest/app/src/main/res/layout/list_layout.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FirstTest/app/src/main/res/layout/professeur_item_layout.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/FirstTest/app/src/main/res/layout/register_activity.xml" value="0.25" />
         <entry key="..\:/Users/Yoga/AndroidStudioProjects/FirstTest/app/src/main/res/drawable-v24/ic_email.xml" value="0.1295" />
         <entry key="..\:/Users/Yoga/AndroidStudioProjects/FirstTest/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1295" />
         <entry key="..\:/Users/Yoga/AndroidStudioProjects/FirstTest/app/src/main/res/drawable-v24/ic_lock.xml" value="0.1295" />

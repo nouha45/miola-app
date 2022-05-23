@@ -36,6 +36,7 @@
         android:id="@+id/topText"
         android:layout_width="282dp"
         android:layout_height="80dp"
+        android:layout_marginStart="6dp"
         android:layout_marginEnd="4dp"
         android:layout_marginBottom="28dp"
         android:text="Already Have an Account?"
@@ -98,43 +99,30 @@
         app:layout_constraintVertical_bias="0.55"
         tools:layout_editor_absoluteX="9dp">
 
-        <RadioGroup
-            android:id="@+id/grpRadion"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginStart="32dp"
-            android:layout_marginEnd="32dp"
-            android:orientation="horizontal">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Professeur"
+            android:layout_marginStart="10dp"
+            android:id="@+id/prof"
 
-            <RadioButton
-                android:id="@+id/btnProf"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:buttonTint="#2196F3"
-                android:text="Professeur"
-                android:textColor="@color/material_dynamic_neutral_variant50"
-                android:textSize="16sp" />
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Etudiant"
+            android:layout_marginStart="12dp"
+            android:id="@+id/etud"
+            />
 
-            <RadioButton
-                android:id="@+id/btnEtud"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:buttonTint="#2196F3"
-                android:text="Etudiant"
-                android:textColor="@color/material_dynamic_neutral50"
-                android:textSize="16sp" />
-            <RadioButton
-                android:id="@+id/btnAdmin"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:buttonTint="#2196F3"
-                android:text="Admin"
-                android:textColor="@color/material_dynamic_neutral50"
-                android:textSize="16sp" />
-        </RadioGroup>
+        <CheckBox
+            android:id="@+id/admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="1dp"
+            android:text="Administrateur" />
+
     </LinearLayout>
 
     <Button

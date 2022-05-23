@@ -33,19 +33,35 @@
             android:exported="false" />
         <activity
             android:name=".ProfileEtud"
-            android:exported="false" />
-        <activity
-            android:name=".adminUI.ProfileAdmin"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".AjouterProf"
             android:exported="false"
            />
         <activity
+            android:name=".MesEtudiants"
+            android:exported="false"
+            />
+
+
+
+        <activity
             android:name=".ForgotPassword"
             android:exported="false" />
         <activity
             android:name=".DashboardProf"
+            android:exported="true" />
+        <activity
+            android:name=".DashboardEtudiant"
+            android:exported="true" />
+        <activity
+            android:name=".DashboardAdmin"
+            android:exported="true" />
+        <activity
+            android:name=".EmploiActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DownloadEmploi"
             android:exported="true" />
         <activity
             android:name=".Home"
